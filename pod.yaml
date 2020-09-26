@@ -1,1 +1,10 @@
-
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels: Kumar Lab
+    tier: front-end
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
